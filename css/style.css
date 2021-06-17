@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
   --primary-color: #047aed;
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -101,8 +101,8 @@ img {
   margin: 30px 0;
 }
 
-.showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
   border: 0;
   border-bottom: 1px solid #b4becb;
   width: 100%;
@@ -116,7 +116,7 @@ img {
 
 .showcase::before,
 .showcase::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100px;
   bottom: -70px;
@@ -126,54 +126,32 @@ img {
   transform: skewY(-3deg);
 }
 
-/* Utilities */
-.container {
-  max-width: 1100px;
-  overflow: auto;
-  padding: 0 40px;
-  margin: 0 auto;
+/* Stats */
+.stats {
+  padding-top: 100px;
 }
 
-.card {
-  background-color: #fff;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background: var(--primary-color);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+.stats .grid h3 {
+  font-size: 35px;
 }
 
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.btn:hover {
-  transform: scale(0.98);
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
 }
