@@ -1,6 +1,6 @@
 # TraversyMedia_clone-Loruki
-This repository is just my practice cloning youtube tutorial by Traversy Media.
-100% Vanilla HTML&CSS. No JS and/or frameworks.
+This repository is just for my practice cloning youtube tutorial by Traversy Media.
+100% Vanilla HTML&CSS. No JS and/or frameworks used.
 
 
 ## Beautiful Original
