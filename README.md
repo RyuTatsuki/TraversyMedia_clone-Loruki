@@ -4,7 +4,6 @@ This repository is just for my practice cloning youtube tutorial by Traversy Med
 
 
 ## Beautiful Original
----
 Traversy Media - Build a Responsive Website | HTML, CSS Grid, Flexbox & More
 > YouTube https://www.youtube.com/watch?v=p0bGHP-PXD4
 
