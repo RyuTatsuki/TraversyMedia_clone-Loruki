@@ -10,4 +10,4 @@ Traversy Media - Build a Responsive Website | HTML, CSS Grid, Flexbox & More
 > GitHub https://github.com/bradtraversy/loruki-website
 
 
-### **Thanks a lot to Traversy Media!!**
+### **Thanks a lot Traversy Media!!**
